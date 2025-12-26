@@ -3,7 +3,7 @@
    Includes: Drops, Creates, Inserts, Procedures (F5, F6), Tests
    ========================= */
 
-
+SET SERVEROUTPUT ON;
 
 -- ====== DROPS (tables) ======
 BEGIN EXECUTE IMMEDIATE 'DROP TABLE Message CASCADE CONSTRAINTS';       EXCEPTION WHEN OTHERS THEN NULL; END; /
